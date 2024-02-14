@@ -18,7 +18,6 @@ public class PlayerGroundState : PlayerState
     {
         base.DoCheck();
         isGrounded = player.CheckIfTouchGround();
-        Debug.Log(isGrounded);
 
     }
 
